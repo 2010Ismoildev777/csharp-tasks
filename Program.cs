@@ -1,15 +1,19 @@
 ﻿//ClassTask
-// Task1
-// int[] arr1 = new int[] { 1, 2, 3, 4, 2, 1, 3, 0 };
-// int max = arr1[0];
-// for (int i = 1; i < arr1.Length; i++)
-// {
-//     if (arr1[i] > max)
-//     {
-//         max = arr1[i];
-//     }
-// }
-// Console.WriteLine(max);
+//Task1
+int max = 0;
+for(;;)
+{
+    int a = Convert.ToInt32(Console.ReadLine());
+    if(a == 0)
+    {
+        break;
+    }
+    else if(a > max)
+    {
+        max = a;
+    }
+}
+Console.Write(max);
 
 
 //Task2
