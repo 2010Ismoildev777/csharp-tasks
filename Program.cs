@@ -31,22 +31,22 @@
 
 
 //Task3
-int sum = 0;
-int prev = -1;
-for(;;)
-{
-    int a = Convert.ToInt32(Console.ReadLine());
-    if(a == 0 && prev == 0)
-    {
-        break;
-    }
-    else
-    {
-        sum +=a;
-        prev = a;
-    }
-}
-Console.Write(sum);
+// int sum = 0;
+// int prev = -1;
+// for(;;)
+// {
+//     int a = Convert.ToInt32(Console.ReadLine());
+//     if(a == 0 && prev == 0)
+//     {
+//         break;
+//     }
+//     else
+//     {
+//         sum +=a;
+//         prev = a;
+//     }
+// }
+// Console.Write(sum);
 
 
 //Task4
