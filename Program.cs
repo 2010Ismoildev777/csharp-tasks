@@ -1,32 +1,52 @@
 ﻿//ClassTask
 //Task1
-int max = 0;
-for(;;)
-{
-    int a = Convert.ToInt32(Console.ReadLine());
-    if(a == 0)
-    {
-        break;
-    }
-    else if(a > max)
-    {
-        max = a;
-    }
-}
-Console.Write(max);
+// int max = 0;
+// for(;;)
+// {
+//     int a = Convert.ToInt32(Console.ReadLine());
+//     if(a == 0)
+//     {
+//         break;
+//     }
+//     else if(a > max)
+//     {
+//         max = a;
+//     }
+// }
+// Console.Write(max);
 
 
 //Task2
+// int a = Convert.ToInt32(Console.ReadLine());
+// int n = Convert.ToInt32(Console.ReadLine());
+// int sum = 0;
+// int cnt = 1;
+// for(int i = 0; i <= n; i++)
+// {
+//     sum += i;
+//     cnt *= a;
+
+// }
+// Console.Write(sum);
 
 
 //Task3
-// int[] arr2 = new int[] { 1, 2, 0, 3, 4, 0, 5, 0, 0 };
-// int sum = 0;
-// for(int i = 0; i < arr2.Length; i++)
-// {
-//     sum += arr2[i];
-// }
-// System.Console.WriteLine(sum);
+int sum = 0;
+int prev = -1;
+for(;;)
+{
+    int a = Convert.ToInt32(Console.ReadLine());
+    if(a == 0 && prev == 0)
+    {
+        break;
+    }
+    else
+    {
+        sum +=a;
+        prev = a;
+    }
+}
+Console.Write(sum);
 
 
 //Task4
